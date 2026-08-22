@@ -1,0 +1,33 @@
+Cómo nombrar y subir las imágenes del Dress Code
+=================================================
+
+Guarda cada imagen en esta misma carpeta (images/dresscode/) con
+EXACTAMENTE estos nombres (puede ser .jpg, .jpeg, .png o .webp,
+el sitio prueba las 4 extensiones solo, no hace falta tocar el código):
+
+Moodboard (4 imágenes):
+  moodboard-1.jpg
+  moodboard-2.jpg
+  moodboard-3.jpg
+  moodboard-4.jpg
+
+Chicas (6 imágenes):
+  chicas-1.jpg
+  chicas-2.jpg
+  chicas-3.jpg
+  chicas-4.jpg
+  chicas-5.jpg
+  chicas-6.jpg
+
+Chicos (6 imágenes):
+  chicos-1.jpg
+  chicos-2.jpg
+  chicos-3.jpg
+  chicos-4.jpg
+  chicos-5.jpg
+  chicos-6.jpg
+
+En cuanto subas un archivo con el nombre correcto a esta carpeta
+(en GitHub o donde alojes la web), aparecerá automáticamente en su
+hueco correspondiente, con su bordecito dorado. No hace falta editar
+ni el HTML ni el CSS.

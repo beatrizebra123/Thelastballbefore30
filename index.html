@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Last Ball Before Judgement</title>
+<title>The Last Ball Before Thirty</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Cormorant+SC:wght@500;600&family=Pinyon+Script&display=swap" rel="stylesheet">
@@ -31,11 +31,11 @@
 
     <div class="modal modal-dress" id="modal-dress" hidden>
       <button class="modal-close" aria-label="Cerrar">&times;</button>
-      <span class="modal-eyebrow">The Last Ball Before Judgement</span>
+      <span class="modal-eyebrow">The Last Ball Before Thirty</span>
       <h2>Dress Code</h2>
       <div class="ornament">✦</div>
 
-      <p class="dc-note">Os dejamos inspiración y links de compra para dar ideas — scroll abajo</p>
+      <p class="dc-note">Os dejamos inspiración y links de compra para dar ideas. Scroll abajo</p>
 
       <section class="dc-section">
         <h3 class="dc-heading">Moodboard</h3>
@@ -74,23 +74,35 @@
       <section class="dc-links">
         <h3 class="dc-heading">Links de compra</h3>
         <ul class="dc-linklist">
-          <li><a href="https://www.amazon.es/dp/B0H5VYBLGZ/ref=twister_B0FFT4WQG2?_encoding=UTF8&th=1&psc=1" target="_blank" rel="noopener">Máscara veneciana</a></li>
-          <li><a href="https://www.amazon.es/Aomig-Venecianas-Mascarada-Halloween-Disfraces/dp/B0BXH4FYD2" target="_blank" rel="noopener">Aomig — máscara de mascarada</a></li>
-          <li><a href="https://www.amazon.es/SIQUK-Veneciana-Mascarada-Halloween-Carnaval/dp/B09XDTFKYG" target="_blank" rel="noopener">SIQUK — máscara veneciana</a></li>
-          <li><a href="https://www.amazon.es/YU-FENG-M%C3%A1scara-Veneciano-Completa/dp/B07D53Y7MP" target="_blank" rel="noopener">YU FENG — máscara completa</a></li>
+          <li><a href="https://www.amazon.es/dp/B0H5VYBLGZ/ref=twister_B0FFT4WQG2?_encoding=UTF8&th=1&psc=1" target="_blank" rel="noopener">Corsé</a></li>
+          <li><a href="https://www.amazon.es/Aomig-Venecianas-Mascarada-Halloween-Disfraces/dp/B0BXH4FYD2" target="_blank" rel="noopener">Aomig. Máscara de baile</a></li>
+          <li><a href="https://www.amazon.es/SIQUK-Veneciana-Mascarada-Halloween-Carnaval/dp/B09XDTFKYG" target="_blank" rel="noopener">SIQUK. Máscara veneciana</a></li>
+          <li><a href="https://www.amazon.es/YU-FENG-M%C3%A1scara-Veneciano-Completa/dp/B07D53Y7MP" target="_blank" rel="noopener">YU FENG. Máscara completa</a></li>
         </ul>
       </section>
     </div>
 
     <div class="modal modal-rsvp" id="modal-rsvp" hidden>
       <button class="modal-close" aria-label="Cerrar">&times;</button>
-      <span class="modal-eyebrow">The Last Ball Before Judgement</span>
+      <span class="modal-eyebrow">The Last Ball Before Thirty</span>
       <h2>Confirmar Asistencia</h2>
       <div class="ornament">✦</div>
       <p class="rsvp-deadline">Confirma asistencia<br>antes del 2 de noviembre</p>
+
+      <div class="guest-search">
+        <input type="text" id="guestSearch" placeholder="Busca tu nombre..." autocomplete="off">
+      </div>
+
+      <p class="guest-empty" id="guestEmpty" hidden>No encontramos ese nombre en ninguna lista.</p>
+
+      <div class="guest-groups" id="guestGroups"><!-- generado por js/guests.js + js/script.js --></div>
     </div>
 
   </div>
+
+  <script src="js/guests.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="js/notify.js"></script>
 
 <script src="js/script.js"></script>
 </body>
