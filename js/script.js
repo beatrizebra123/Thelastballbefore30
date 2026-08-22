@@ -34,4 +34,26 @@
     if(e.key === 'Escape') closeModal();
   });
 
+  /* ---------- Imágenes del Dress Code (prueba varias extensiones) ---------- */
+  var exts = ['jpg', 'jpeg', 'png', 'webp'];
+
+  document.querySelectorAll('.dc-item img[data-base]').forEach(function(img){
+    var base = img.getAttribute('data-base');
+    var i = 0;
+
+    function tryNext(){
+      if(i >= exts.length){
+        img.classList.add('dc-error');
+        return;
+      }
+      img.src = base + '.' + exts[i++];
+    }
+
+    img.addEventListener('error', tryNext);
+    img.addEventListener('load', function(){
+      this.classList.add('dc-loaded');
+    });
+    tryNext();
+  });
+
 })();
