@@ -512,11 +512,11 @@
     .frame picture{
       display:block;
       position:relative;
-      width:152vw;
+      width:140vw;
       max-width:none;
       height:auto;
-      left:-27vw;
-      margin-top:-66vw;
+      left:-15vw;
+      margin-top:-72vw;
     }
 
     .frame img{
