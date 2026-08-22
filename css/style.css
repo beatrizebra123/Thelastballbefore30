@@ -511,9 +511,9 @@
        Así se recorta solo el negro de ARRIBA y nunca se corta el brazo por ABAJO. */
     .frame picture{
       display:block;
-      width:145vw;
+      width:155vw;
       height:auto;
-      margin-left:-20vw;
+      margin-left:-50vw;
       margin-top:-71vw;
     }
 
