@@ -517,7 +517,7 @@
     }
 
     .frame img{
-      transform:translate(-3%, -4%) scale(1.10);
+      transform:translate(-8%, -4%) scale(1.20);
       transform-origin:center center;
     }
 
@@ -528,8 +528,16 @@
       left:0;
       right:0;
       bottom:0;
-      height:1vw;
-      background:linear-gradient(to bottom, transparent, var(--black) 85%);
+      height:12vw;
+      background:linear-gradient(
+        to bottom,
+        transparent 0%,
+        transparent 42%,
+        rgba(0,0,0,.18) 62%,
+        rgba(0,0,0,.45) 78%,
+        rgba(0,0,0,.75) 90%,
+        var(--black) 100%
+      );
       box-shadow:none;
       pointer-events:none;
     }
