@@ -527,16 +527,14 @@
       top:auto;
       left:0;
       right:0;
-      bottom:-6vw;
-      height:18vw;
+      bottom:0;
+      height:5vw;
       background:linear-gradient(
         to bottom,
         transparent 0%,
-        transparent 40%,
-        rgba(0,0,0,.10) 47%,
-        rgba(0,0,0,.28) 54%,
-        rgba(0,0,0,.58) 61%,
-        var(--black) 67%,
+        transparent 55%,
+        rgba(0,0,0,.20) 72%,
+        rgba(0,0,0,.55) 88%,
         var(--black) 100%
       );
       box-shadow:none;
